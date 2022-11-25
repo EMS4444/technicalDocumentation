@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Python</header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#Syntax">Syntax</a>
+      <a class="nav-link" href="#Comments">Comments</a>
+      <a class="nav-link" href="#Data_Types">Data Types</a>
+      <a class="nav-link" href="#Casting">Casting</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>
+            Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
+          </p>
+          <h3>
+            What can Python do?
+          </h3>
+          <ul>
+            <li>
+              Python can be used on a server to create web applications.
+            </li>
+            <li>
+              Python can be used alongside software to create workflows.
+            </li>
+            <li>
+              Python can connect to database systems. It can also read and modify files.
+            </li>
+            <li>
+              Python can be used to handle big data and perform complex mathematics.
+            </li>
+            <li>
+              Python can be used for rapid prototyping, or for production-ready software development.
+            </li>
+          </ul>
+          <h3>Python Syntax compared to other programming languages</h3>
+          <ul>
+            <li>
+              Python was designed for readability, and has some similarities to the English language with influence from mathematics.
+            </li>
+            <li>Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.</li>
+            <li>Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.</li>
+          </ul>
+          <h4>Example</h4>
+          <code>print("Hello World")</code>
+          </article>
+      </section>
+
+      <section class="main-section" id="Syntax">
+        <header>Syntax</header>
+        <h3>Execute Python Syntax</h3>
+        <p>As we learned in the previous page, Python syntax can be executed by writing directly in the Command Line:
+        </p>
+          <code>>>> print("Hello, World!")<br>
+Hello, World! </code>
+        <p>Or by creating a python file on the server, using the .py file extension, and running it in the Command Line:</p>
+          <code>C:\Users\Your Name>python myfile.py</code>
+        
+      </section>
+
+      <section class="main-section" id="Comments">
+        <header>Comments</header>
+        <p>Comments can be used to explain Python code<br>
+        Comments can be used to make the code more readable.<br>
+        Comments can be used to prevent execution when testing code.</p>
+        <ul>
+          <li>Comments starts with a #, and Python will ignore them:</li>
+        <h4>Example</h4>
+          <code>#This is a comment<br>
+              print("Hello, World!")</code>
+        <li>Comments can be placed at the end of a line, and Python will ignore the rest of the line:</li>
+        <h4>Example</h4>
+          <code>print("Hello, World!") #This is a comment </code>
+        <li>A comment does not have to be text that explains the code, it can also be used to prevent Python from executing code:</li>
+        <h4>Example</h4>
+          <code>#print("Hello, World!")<br>
+            print("Cheers, Mate!") </code>
+        </ul>
+      </section>
+      <section class="main-section" id="Data_Types">
+        <header>Data Types</header>
+        <article>
+        <p>In programming, data type is an important concept.</p>
+        <p>Variables can store data of different types, and different types can do different things.</p>
+        <p>Python has the following data types built-in by default, in these categories:</p>
+        <ul>
+          <code><li>Text Type:	str</li></code>
+          <code><li>Numeric Types:	int, float, complex</li></code>
+          <code><li>Sequence Types:	list, tuple, range</li></code>
+          <code><li>Mapping Type:	dict</li></code>
+          <code><li>Set Types:	set, frozenset</li></code>
+          <code><li>Boolean Type:	bool</li></code>
+          <code><li>Binary Types:	bytes,bytearray,           memoryview</li></code>
+         <code> <li>None Type:	NoneType</li></code>
+      </section>
+
+      <section class="main-section" id="Casting">
+        <header>Casting</header>
+        <p>There may be times when you want to specify a type on to a variable. This can be done with casting. Python is an object-orientated language, and as such it uses classes to define data types, including its primitive types.</p>
+        <h4>Casting in python is therefore done using constructor functions:</h4>
+        <ul>
+          <li><strong>int()</strong> - constructs an integer number from an integer literal, a float literal (by removing all decimals), or a string literal (providing the string represents a whole number)</li>
+          <li><strong>float()</strong> - constructs a float number from an integer literal, a float literal or a string literal (providing the string represents a float or an integer)</li>
+          <li><strong>str()</strong> - constructs a string from a wide variety of data types, including strings, integer literals and float literals</li>
+        </ul>
+        <h4>Examples</h4>
+        <p><strong>Integers:</strong></p>
+        <code>x = int(1)   <strong># x will be 1</strong><br>
+        y = int(2.8) <strong># y will be 2</strong><br>
+        z = int("3") <strong># z will be 3</strong>
+        </code>
+        <p><strong>Floats:</strong></p>
+        <code>x = float(1)     <strong># x will be 1.0<br></strong>
+y = float(2.8)   <strong># y will be 2.8<br></strong>
+z = float("3")   <strong># z will be 3.0<br></strong>
+w = float("4.2") <strong># w will be 4.2</strong></code>
+        <p><strong>Strings:</strong></p>
+        <code>x = str("s1") <strong># x will be 's1'<br></strong>
+y = str(2)    <strong># y will be '2'<br></strong>
+z = str(3.0)  <strong># z will be '3.0'</strong></code>
+      </section>
+    </main>
+  </body>
+</html>
